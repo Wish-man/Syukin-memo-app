@@ -1,0 +1,14 @@
+body{
+    background-color: grey;
+    font-family: Meiryo;
+    color: navy;
+}
+
+div{
+    background-color: #eeeeee;
+    widows: 400px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 30px auto;
+}
