@@ -10,7 +10,18 @@
     <h1>集金データ登録</h1>
     <form method="post" action="https://script.google.com/macros/s/AKfycbypYM-5bvCBh-y8Uttsl3eyJ1boTBlj1WGtzG5O63dxAEps_1c/exec">
       <p>
-        <label>項目 <input type="text" name="category"></label>
+        <!--<label>項目 <input type="text" name="category"></label>-->
+        <label>
+          項目
+          <select name="category" type="text">
+            <option value="冬季部費">冬季部費</option>
+            <option value="月次部費">月次部費</option>
+            <option value="艇購入基金">艇購入基金</option>
+            <option value="個人立替精算">個人立替精算</option>
+            <option value="七大戦レセプ費">七大戦レセプ費</option>
+            <option value="470協会登録費">470協会登録費</option>
+          </select>
+        </label>
       </p>
       <p>
         <label>人名 <input type="text" name="name"></label>
